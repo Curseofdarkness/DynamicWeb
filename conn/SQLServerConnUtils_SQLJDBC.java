@@ -15,11 +15,11 @@ public static Connection getSQLServerConnection_SQLJDBC()
     // Note: Change the connection parameters accordingly.
      
     String hostName = "127.0.0.1";
-    String sqlInstanceName = "CURSEOFDARKNESS";
+    String sqlInstanceName = //
     String database = "hearthstone";
    // String integrated = "integratedSecurity=true";
-    String username = "root";
-    String password = "";
+    String username = //enter username for database
+    String password = //enter password for database
     
 
     return getSQLServerConnection_SQLJDBC(hostName, sqlInstanceName,
